@@ -30,11 +30,6 @@ with open(input_csv, 'r') as infile, open(output_csv, 'w', newline='') as outfil
     reader = csv.reader(infile)
     writer = csv.writer(outfile)
 
-    # Write header to the new CSV
-    header = next(reader)
-    header = ['Longitude', 'Latitude', 'Business Name'] + header
-    writer.writerow(header)
-
     for row in reader:
         address = row[0]  # Assuming the address is in the first column
         latitude, longitude = geocode_address(address)
