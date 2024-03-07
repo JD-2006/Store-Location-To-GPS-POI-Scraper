@@ -1,6 +1,17 @@
 Use these scripts to help you create large sets of POI files easily by scraping a business's website for its locations.
 The resulting CSV's can then be converted to required format i.e. GPX.
 
+I reccomend using the Yellowpages scripts since they work 99% of the time and they extract phone numbers as well.
+After running
+YellowPages_Address_Extraction.py
+Look through csv for any missing addresses before using
+YellowPages_Extracted_Addresses_To_GPS_CSV.py
+The scripts don't handle addresses with 'Suite or Ste' very well. 
+I use https://www.mapdevelopers.com/geocode_tool.php after YellowPages_Extracted_Addresses_To_GPS_CSV.py to fill in any
+missing coords.
+
+
+
 
 1_Website_Address_Extraction.py
 Uses BeautifulSoup to scrape from a HTML webpage where the store locations addresses are one level down.
