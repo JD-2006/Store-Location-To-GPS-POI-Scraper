@@ -10,6 +10,8 @@ The scripts don't handle addresses with 'Suite or Ste' very well.
 I use https://www.mapdevelopers.com/geocode_tool.php after YellowPages_Extracted_Addresses_To_GPS_CSV.py to fill in any
 missing coords.
 
+This site can batch geocode: https://www.geoapify.com/tools/geocoding-online
+
 
 
 
