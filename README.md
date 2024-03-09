@@ -16,6 +16,13 @@ This site can batch geocode: https://www.geoapify.com/tools/geocoding-online
 CSV-Combine.py
 Combines a folder of CSV's into one CSV.
 
+CSV-Combine-2.py
+Combines a folder of CSV's into one CSV. Different method, may work if previos does not.
+
+CSV-Combine-3-MisMatch.py
+Combines a folder of CSV's into one CSV. If some columns don't have data it will add some so it can append columns.
+
+
 1_Website_Address_Extraction.py
 Uses BeautifulSoup to scrape from a HTML webpage where the store locations addresses are one level down.
 For example Jamba Juice. I want all the locations in California. I would go to their state list for CA. https://locations.jamba.com/ca
