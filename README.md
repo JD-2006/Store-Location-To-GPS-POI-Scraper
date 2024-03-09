@@ -13,7 +13,8 @@ missing coords.
 This site can batch geocode: https://www.geoapify.com/tools/geocoding-online
 
 
-
+CSV-Combine.py
+Combines a folder of CSV's into one CSV.
 
 1_Website_Address_Extraction.py
 Uses BeautifulSoup to scrape from a HTML webpage where the store locations addresses are one level down.
