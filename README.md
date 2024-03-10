@@ -12,6 +12,11 @@ missing coords.
 
 This site can batch geocode: https://www.geoapify.com/tools/geocoding-online
 
+YellowPages_Address_Extraction-Extended.py
+Isn't compatable with YellowPages_Extracted_Addresses_To_GPS_CSV.py for geocoding
+to GPS coordinates but it does scrape business names and the CSV can be uploaded to the above website.
+
+
 
 CSV-Combine.py
 Combines a folder of CSV's into one CSV.
